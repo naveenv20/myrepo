@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="3" name="TestSuite" time="67.345" errors="0" skipped="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\othnvun\workspace_framework\WebDriver_DataDriven_Framework_Core"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\othnvun\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Seli\apache-maven-3.2.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IBM\Lotus\Notes\jvm\bin\classic;c:\oracl11g;c:\oracl11g\bin;C:\Program Files (x86)\IBM\Lotus\Notes\jvm\bin\classic;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Lotus\Notes\jvm\bin\classic;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\Program Files (x86)\IBM\Lotus\Notes;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.4\bin;C:\Seli\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.8.0_25\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\othnvun"/>
+    <property name="user.timezone" value="America/Halifax"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="othnvun"/>
+    <property name="java.class.path" value="C:\Seli\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Seli\apache-maven-3.2.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest" name="logintest" time="0.114">
+    <failure message="expected:&lt;B&gt; but was:&lt;A&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;B&gt; but was:&lt;A&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest.logintest(LoginTest.java:37)
+</failure>
+    <system-out>Starting suitePortFolioTest
+Starting suitePortFolioTest
+^^^^^^^^^^BEFORE TEST^^^^^^^
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+Test method name   :::logintest
+Total rows:::     24
+Test starts from the row number:::     1
+Total rows of data are:::   2
+Total columns of data are:::   6
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest" name="logintest" time="0.077">
+    <failure message="expected:&lt;B&gt; but was:&lt;A&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;B&gt; but was:&lt;A&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest.logintest(LoginTest.java:37)
+</failure>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest" name="leastPerAssetTest" time="66.858">
+    <failure message="Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;LMTN202461&apos;, ip: &apos;167.74.108.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.2.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78ff4ec2-dde7-4af7-a48f-b389c8164bcd" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;LMTN202461&apos;, ip: &apos;167.74.108.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.2.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78ff4ec2-dde7-4af7-a48f-b389c8164bcd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at com.qtpselenium.framework.datadriven.TestBase.input(TestBase.java:138)
+	at com.qtpselenium.framework.datadriven.TestBase.dologin(TestBase.java:213)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest.leastPerAssetTest(LeastPerAssetTest.java:23)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;LMTN202461&apos;, ip: &apos;167.74.108.52&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8959:5)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11618:1)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:11)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+</failure>
+    <system-out>^^^^^^^^^^BEFORE TEST^^^^^^^
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+Test method name   :::leastPerAssetTest
+Total rows:::     24
+Test starts from the row number:::     7
+Total rows of data are:::   1
+Total columns of data are:::   5
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+    <system-err>log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test1" name="test1" time="0.058">
+    <skipped/>
+    <system-out>Finishing suitePortFolioTest
+{logintest Iteration 2=[expected:&lt;B&gt; but was:&lt;A&gt;]-, logintest Iteration 1=[expected:&lt;B&gt; but was:&lt;A&gt;]-, leastPerAssetTest Iteration 1=}
+Starting suiteSuite B
+Starting suiteSuite B
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+Test method name   :::test1
+Total rows:::     26
+Test starts from the row number:::     1
+Total rows of data are:::   3
+Total columns of data are:::   5
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+    <system-err>Dec 15, 2014 7:58:09 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@312ab28e
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test1" name="test1" time="0.051">
+    <skipped/>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test1" name="test1" time="0.046">
+    <skipped/>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test2" name="test2" time="0.05">
+    <skipped/>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+Test method name   :::test2
+Total rows:::     26
+Test starts from the row number:::     7
+Total rows of data are:::   3
+Total columns of data are:::   6
+Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test2" name="test2" time="0.053">
+    <skipped/>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.suiteB.Test2" name="test2" time="0.038">
+    <skipped/>
+    <system-out>Filelocation:::C:\Users\othnvun\workspace_framework\TestData\Webdriver_rediff\
+</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,27 @@
+2014-12-16 13:13:01,994 DEBUG [LeastPerAssetTest] issuiterunnable  :::for true
+2014-12-16 13:13:02,063 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-16 13:13:02,064 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-16 13:13:49,521 DEBUG [LeastPerAssetTest] HDFC Bank  (-22.87%)
+2014-12-16 13:13:49,533 DEBUG [LeastPerAssetTest] 2
+2014-12-16 13:13:49,550 DEBUG [LeastPerAssetTest] HDFC Bank
+2014-12-16 13:13:49,597 DEBUG [LeastPerAssetTest] after validation:::-22.87
+2014-12-16 13:13:49,615 DEBUG [LeastPerAssetTest] Wipro Ltd
+2014-12-16 13:13:49,637 DEBUG [LeastPerAssetTest] not matched so no chk
+2014-12-16 13:14:24,428 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,458 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-16 13:14:24,458 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-16 13:14:24,487 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,526 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-16 13:14:24,526 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  N
+2014-12-16 13:14:24,553 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,590 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-16 13:14:24,590 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-16 13:14:24,708 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,770 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-16 13:14:24,770 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-16 13:14:24,800 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,829 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-16 13:14:24,829 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  N
+2014-12-16 13:14:24,866 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-16 13:14:24,908 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-16 13:14:24,908 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y

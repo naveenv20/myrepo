@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest">
+        <methods>
+          <include name="quitingbrowser"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest">
+        <methods>
+          <include name="quitingbrowser"/>
+          <include name="logintest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest">
+        <methods>
+          <include name="leastPerAssetTest" invocation-numbers="0"/>
+          <include name="quitingbrowser"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest">
+        <methods>
+          <include name="quitingbrowser"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

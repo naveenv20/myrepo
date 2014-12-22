@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PortFolioTest]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Test 2(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest">
+        <methods>
+          <include name="beFore"/>
+          <include name="quitingbrowser"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest">
+        <methods>
+          <include name="leastPerAssetTest" invocation-numbers="0"/>
+          <include name="quitingbrowser"/>
+          <include name="runbeftest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test 1(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest">
+        <methods>
+          <include name="beFore"/>
+          <include name="quitingbrowser"/>
+          <include name="logintest"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest">
+        <methods>
+          <include name="quitingbrowser"/>
+          <include name="runbeftest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

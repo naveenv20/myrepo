@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortFolioTest">
+
+
+
+
+<test name="Test 1">
+    <classes>
+        <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Test 2">
+    <classes>
+        <class name="com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
+

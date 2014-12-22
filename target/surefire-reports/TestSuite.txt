@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 103.814 sec <<< FAILURE!
+logintest(com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest)  Time elapsed: 0.114 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<B> but was:<A>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest.logintest(LoginTest.java:37)
+
+logintest(com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest)  Time elapsed: 0.077 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<B> but was:<A>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LoginTest.logintest(LoginTest.java:37)
+
+leastPerAssetTest(com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest)  Time elapsed: 66.858 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.04 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'LMTN202461', ip: '167.74.108.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.2.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78ff4ec2-dde7-4af7-a48f-b389c8164bcd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at com.qtpselenium.framework.datadriven.TestBase.input(TestBase.java:138)
+	at com.qtpselenium.framework.datadriven.TestBase.dologin(TestBase.java:213)
+	at com.qtpselenium.framework.datadriven.PortFolioTest.LeastPerAssetTest.leastPerAssetTest(LeastPerAssetTest.java:23)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'LMTN202461', ip: '167.74.108.52', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8959:5)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11618:1)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:11)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/othnvun/AppData/Local/Temp/anonymous3689981487124151926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+

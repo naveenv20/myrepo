@@ -1,0 +1,21 @@
+2014-12-15 19:57:00,959 DEBUG [LeastPerAssetTest] issuiterunnable  :::for true
+2014-12-15 19:57:01,023 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-15 19:57:01,023 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-15 19:58:40,806 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:40,844 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-15 19:58:40,844 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-15 19:58:40,869 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:40,895 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-15 19:58:40,895 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  N
+2014-12-15 19:58:40,917 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:40,943 DEBUG [LeastPerAssetTest] istestcaserunnable  :::true
+2014-12-15 19:58:40,943 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-15 19:58:41,028 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:41,057 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-15 19:58:41,057 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y
+2014-12-15 19:58:41,081 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:41,104 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-15 19:58:41,104 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  N
+2014-12-15 19:58:41,126 DEBUG [LeastPerAssetTest] issuiterunnable  :::for false
+2014-12-15 19:58:41,149 DEBUG [LeastPerAssetTest] istestcaserunnable  :::false
+2014-12-15 19:58:41,149 DEBUG [LeastPerAssetTest] Data run mode returining here is ::  Y

@@ -1,0 +1,29 @@
+2014-12-15 19:28:55,028 DEBUG [LoginTest] issuiterunnable  :::for true
+2014-12-15 19:28:55,081 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:28:55,081 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,292 DEBUG [LoginTest] issuiterunnable  :::for true
+2014-12-15 19:29:07,334 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:29:07,334 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,334 DEBUG [LoginTest] Mozilla
+2014-12-15 19:29:07,362 DEBUG [LoginTest] issuiterunnable  :::for true
+2014-12-15 19:29:07,408 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:29:07,408 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,408 DEBUG [LoginTest] Mozilla
+2014-12-15 19:29:07,475 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,507 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:29:07,507 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,537 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,572 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:29:07,572 DEBUG [LoginTest] Data run mode returining here is ::  N
+2014-12-15 19:29:07,600 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,630 DEBUG [LoginTest] istestcaserunnable  :::true
+2014-12-15 19:29:07,631 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,696 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,726 DEBUG [LoginTest] istestcaserunnable  :::false
+2014-12-15 19:29:07,726 DEBUG [LoginTest] Data run mode returining here is ::  Y
+2014-12-15 19:29:07,750 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,780 DEBUG [LoginTest] istestcaserunnable  :::false
+2014-12-15 19:29:07,780 DEBUG [LoginTest] Data run mode returining here is ::  N
+2014-12-15 19:29:07,805 DEBUG [LoginTest] issuiterunnable  :::for false
+2014-12-15 19:29:07,842 DEBUG [LoginTest] istestcaserunnable  :::false
+2014-12-15 19:29:07,842 DEBUG [LoginTest] Data run mode returining here is ::  Y
